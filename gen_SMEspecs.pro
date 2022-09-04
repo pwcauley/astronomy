@@ -1,4 +1,10 @@
-;;All inputs are string variables!!e
+;;GEN_SMESPECS
+;;
+;;Wrapper procedure for running Spectroscopy Made Easy at the IDL command
+;;line instead of through the GUI. Useful for running large batches of
+;;spectra instead of doing them one by one through the GUI. 
+
+;;All inputs are string variables!!!
 
 ;;NOTE: Now TEFFS and GRAVS are *paired* so one spectrum is generated for
 ;;each *pair* of values. If only a single gravity is specified, gravity
